@@ -4,56 +4,41 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./css/main.min.css" />
+    <link rel="stylesheet" href="./css/main.css" />
   </head>
-  <body class="container">
-    <div class="fon">
-      <img
-        src="./assets/1648017243_3-kartinkin-net-p-kartinki-na-fon-noutbuka-3.jpg"
-        alt=""
-      />
-      <form class="form" action="">
-        <input type="text" placeholder="userName" />
-        <input type="password" placeholder="password" />
-        <br />
-        <a href="">Forgot password</a>
-        <hr />
-        <br />
-        <button type="submit">log in</button>
-      </form>
+  <body >
+        <div class="box">
+        <form action="" class="login">
+            <p class="form__p">Royxattan oting</p>
+            <input required type="text" class="login__name" placeholder="name">
+            <input required type="text" class="login__username" placeholder="username">
+            <button class="login__sumbit" type="sumbit">login</button>
+            <p class="login__desc">Forgot password?</p>
+            <hr>
+            <button class="btn__open" type="button">Register</button>
+        </form>
     </div>
-    <div class="second">
-      <b>Yangi hisob qaytnomasini yaratish </b>
-      <p>Tez va oson</p>
-         
-      <form class="sy_form" action="">
-        <div class="sy_main">
-          <input type="text" placeholder="userName" />
-          <input type="password" placeholder="password" />
+        <div class="wrapper">
+          
         </div>
-        <input type="text" placeholder="userName" />
-        <input type="password" placeholder="password" />
-        <input type="date" />
-        <div>
-          <div>
-            <label for="ayol">Ayol</label>
-            <input name="gendr" id="ayol" type="radio" />
-          </div>
-          <div>
-            <label for="erkak">Erkak</label>
-            <input name="gendr" id="erkak" type="radio" />
-          </div>
-          <div>
-            <label for="not">Not</label>
-            <input name="gendr" id="not" type="radio" />
-          </div>
-        </div>
-        People who use our service may have uploaded your contact information to
-        Facebook. Learn more.
-        <button type="submit">Ro'yxatdan o'tish</button>
-        <a href="">Allaqachon ro'yxatda bormi</a>
-      </form>
+
+    <div class="popap">
+        <div class="overlay"></div>
+        <form class="form" action="">
+            <div class="form__text">
+                <p class="form__desc">Sin Up</p>
+                <button class="btn__close"><i class="fa-solid fa-xmark"></i></button>
+
+            </div>
+            <input required  type="text" class="form__name" placeholder="name">
+            <input required  type="text" class="form__username" placeholder="username">
+           <div class="form__eay"> <input  required type="password" class="form__password" placeholder="password"><button style="display: none;" class="eye__password" type="button"><i class="fa-solid fa-eye"></i></button></div>
+          <div class="form__eay">  <input required  type="password" class="form__password-conform" placeholder="password"><button style="display: none;" class="eye__conform" type="button"><i class="fa-solid fa-eye"></i></button></div>
+            <button class="form__reg" type="submit">Register</button>
+            <a class="form__a" href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo quia <b style="color: dodgerblue; font-weight: 300;" >ipsum pariatur</b> sed amet!</a>
+            <button type="button" class="form__btr">Cancel</button>
+        </form>
     </div>
-    <script src="./js/main.js"></script>
+    <script type="modul" src="./js/main.js"></script>
   </body>
 </html>
