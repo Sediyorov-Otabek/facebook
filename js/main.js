@@ -102,7 +102,7 @@ function createCard(data) {
     card.classList.add("card");
     card.innerHTML = `
          <p class="card__title">User</p>
-         <div class="card__cricle"><img src="./image/149071.png" alt=""></div>
+         <div class="card__cricle"><img src="./image/men.png" alt=""></div>
                 <h3 class="card__h3">${user.name}</h3>
                 <p>${user.username}</p>
                 <p>${user.password}</p>`;
